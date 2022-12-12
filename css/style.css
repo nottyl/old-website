@@ -47,6 +47,8 @@ body {
 }
 
 a {
+  margin-right: 3em;
+  text-align: left;
   color: #61828a;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
