@@ -42,6 +42,11 @@
 
 	};
 
+	function callbackName(response) {
+		document.getElementById('visits').innerText = response.value;
+		document.getElementById('visits2').innerText = response.value;
+	}
+
 
 	var offcanvasMenu = function() {
 
