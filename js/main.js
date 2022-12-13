@@ -42,9 +42,8 @@
 
 	};
 
-	function callbackName(response) {
+	var callbackName = function(response) {
 		document.getElementById('visits').innerText = response.value;
-		document.getElementById('visits2').innerText = response.value;
 	}
 
 
@@ -266,6 +265,7 @@
 		loaderPage();
 		counterWayPoint();
 		fullHeight();
+		callbackName();
 	});
 
 

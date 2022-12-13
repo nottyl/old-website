@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
-  width: 100%;
+  width: 70%;
   padding: 30px;
   float: left;
   background: #fff;
@@ -849,9 +849,24 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 24px;
   margin-bottom: 20px;
   line-height: 1.5;
+  color: black;
 }
 .fh5co-blog .blog-text h3 a {
-  color: black;
+  color: #61828a;
+}
+
+.blog-article h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #000000;
+  line-height: 2.0;
+}
+
+.blog-article p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #1c1c1c;
+  line-height: 2.0;
 }
 
 .fh5co-portfolio {
