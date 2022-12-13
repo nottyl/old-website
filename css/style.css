@@ -803,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
-  width: 70%;
+  width: 100%;
   padding: 30px;
   float: left;
   background: #fff;
