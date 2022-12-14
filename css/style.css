@@ -855,6 +855,12 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #61828a;
 }
 
+@media screen and (max-width: 768px) {
+  .blog-article {
+    padding: 3em;
+  }
+}
+
 .blog-article h4 {
   font-size: 20px;
   margin-bottom: 20px;
@@ -862,11 +868,19 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 2.0;
 }
 
+.blog-article h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #000000;
+  line-height: 1.5;
+}
+
+
 .blog-article p {
   font-size: 18px;
   margin-bottom: 20px;
   color: #1c1c1c;
-  line-height: 2.0;
+  line-height: 1.5;
 }
 
 .fh5co-portfolio {
