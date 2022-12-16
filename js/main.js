@@ -42,7 +42,7 @@
 
 	};
 
-	var callbackName = function(response) {
+	var siteViews = function(response) {
 		document.getElementById('visits').innerText = response.value;
 	}
 
@@ -253,6 +253,7 @@
 
 	};
 
+
 	
 	$(function(){
 		mobileMenuOutsideClick();
@@ -265,7 +266,7 @@
 		loaderPage();
 		counterWayPoint();
 		fullHeight();
-		callbackName();
+
 	});
 
 
