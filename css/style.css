@@ -42,7 +42,8 @@ body {
   bottom: 0;
   left: 0;
   z-index: 101;
-  background: rgba(0, 0, 0, 0.7);
+  /*This is for the offcanvas background*/
+  /*background: rgba(0, 0, 0, 0.7);*/
   content: "";
 }
 
@@ -1102,6 +1103,7 @@ input[type="text"] {
   z-index: 1901;
   width: 270px;
   background: black;
+  opacity: 0.75;
   top: 0;
   right: 0;
   top: 0;
@@ -1131,10 +1133,10 @@ input[type="text"] {
   transform: translateX(0px);
 }
 #fh5co-offcanvas a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-offcanvas a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1);
 }
 #fh5co-offcanvas ul {
   padding: 0;
@@ -1172,6 +1174,7 @@ input[type="text"] {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  opacity: 0;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown.active a:after {
   -webkit-transform: rotate(-180deg);
