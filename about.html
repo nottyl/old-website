@@ -1,3 +1,10 @@
+<?php
+if($_POST["message"]) {
+mail("tyleryeh0407@gmail.com", "Sent from GitHub Pages",
+$_POST["insert your message here"]. "From: an@email.address");
+}
+?>
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -73,7 +80,7 @@
 								</ul>
 							</li>
 							<li class="active"><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact-protected.html">Contact</a></li>
 
 						</ul>
 					</div>
@@ -98,6 +105,44 @@
 					</p>
 				</div>
 			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-md-push-1 animate-box">
+					<h3>Where to Find Me</h3>
+					<ul class="contact-info">
+						<li><i class="icon-github2"></i><a href="https://github.com/nottyl">GitHub</a></li>
+						<li><i class="icon-twitter2"></i><a href="https://twitter.com/tybebored">Twitter</a></li>
+					</ul>
+				</div>
+				<div class="col-md-7 col-md-push-1 animate-box">
+					<form action="https://getform.io/f/186b4267-31d8-417c-8d28-f30e8c4a9cb9" method="post" enctype="multipart/form-data" name="EmailForm">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Name" placeholder="Name">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control" name="Email" placeholder="Email">
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<textarea name="Message" class="form-control" id="" cols="30" rows="7" placeholder="Leave a message..."></textarea>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="form-group">
+								<input type="submit" value="Send Message" class="btn btn-primary">
+							</div>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
 <!--			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center heading-section">
 					<h3>Our History</h3>
@@ -305,7 +350,7 @@
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Talk to me!</h2>
 						<p>If you have any questions, or would like to reach out to me about certain topics, please click on the button below to contact me.</p>
-						<p><a href="contact.html" class="btn btn-default btn-lg">Contact Me</a></p>
+						<p><a href="about.html" class="btn btn-default btn-lg">Contact Me</a></p>
 					</div>
 				</div>
 			</div>
@@ -342,8 +387,8 @@
 					<div class="col-md-4 col-md-push-1 fh5co-widget">
 						<h4>Contact Information</h4>
 						<ul class="fh5co-footer-links">
-							<li><a href="mailto:tyleryeh0407@gmail.com">tyleryeh0407@gmail.com</a></li>
-							<li><a href="https://github.com/nottyl/">github.com/nottyl</a></li>
+							<li><a href="mailto:tyleryeh0407@gmail.com">Mail</a></li>
+							<li><a href="https://github.com/nottyl/">GitHub</a></li>
 						</ul>
 					</div>
 
