@@ -3,7 +3,7 @@
 ### About
 
 This is a work in progress.   
-Go to [nottyl.github.io](https://nottyl.github.io) to see the website.
+Go to [teewhy.github.io](https://teewhy.github.io) to see the website.
 
 ### Color Schemes
 
