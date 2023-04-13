@@ -18,6 +18,6 @@ Go to [nottyl.github.io](https://nottyl.github.io) to see the website.
 
 ### Locked Websites
 Currently, the `contact-protected.html` serves as a template for me to format and design the future locked websites.
-
+Encrypted using https://github.com/MaxLaumeister/pagecrypt
 
 
