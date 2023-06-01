@@ -1,11 +1,13 @@
 ## Tyler's Personal Website
+| ! | This is now an archived repository, new webpage repository [here](https://github.com/nottyl/nottyl.github.ioo) |
+|---|----------------------------------------------------------------------------------------------------------------|
 
 ### About
 
 This is a work in progress.   
 Go to [nottyl.github.io](https://nottyl.github.io) to see the website.
 
-### Color Schemes
+### Color Schemes (WIP)
 
 | Color              | Hex Code |
 |--------------------|----------|
